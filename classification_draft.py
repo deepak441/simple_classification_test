@@ -185,7 +185,6 @@ trainer = Trainer(
 print("=== Training ===")
 trainer.train()
 
-# save adapters + processor
 model.save_pretrained("./qwen-mri-lora")
 processor.save_pretrained("./qwen-mri-lora")
 
